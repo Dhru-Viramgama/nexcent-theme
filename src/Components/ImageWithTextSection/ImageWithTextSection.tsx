@@ -19,7 +19,7 @@ const ImageWithTextSection = (props: ImageWithTextSection) => {
 
     return (
         <div className='px-4 md:px-auto md:container md:mx-auto mt-[20px] md:mt-[40px] mb-[25px] md:mb-[48px]'>
-            <div className='flex flex-col md:flex-row xl:mx-[144px] md:mx-[50px] py-[35px] lg:py-[52px] gap-[25px] lg:gap-[50px]'>
+            <div className='flex flex-col md:flex-row xl:mx-[110px] md:mx-[50px] py-[35px] lg:py-[52px] gap-[25px] lg:gap-[50px]'>
                 <div className='mx-auto md:my-auto min-w-[40%] max-w-full'>
                     {image}
                 </div>
