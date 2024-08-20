@@ -8,7 +8,7 @@ const HelpingLocalSection = () => {
     return (
         <div className='bg-neutral-silver'>
             <div className='px-4 md:px-auto md:container md:mx-auto'>
-                <div className='xl:mx-[110px] md:mx-[40px] py-[64px] flex flex-col md:flex-row md:items-center md:justify-between gap-[30px] lg:gap-[72px]'>
+                <div className='xl:mx-[90px] md:mx-[30px] py-[64px] flex flex-col md:flex-row md:items-center md:justify-between gap-[30px] lg:gap-[72px]'>
                     <div className='text-center md:text-left'>
                         <h2 className='text-neutral-d-grey font-semibold text-3xl lg:text-4xl'>Helping a local <span className='!text-brand-primary block'>business reinvent itself</span></h2>
                         <p className='mt-2 text-[#18191F]'>We reached here with our hard work and dedication</p>

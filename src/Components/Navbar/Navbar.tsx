@@ -5,6 +5,8 @@ import Link from 'next/link';
 import MenuIcon from '@/src/Icons/MenuIcon';
 import ProfileIcon from '@/src/Icons/ProfileIcon';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
+import confetti from 'canvas-confetti';
+import { showCustomToast } from '../customToast/customToast';
 
 const NavBar = () => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -18,6 +20,14 @@ const NavBar = () => {
         "Testimonial",
         "FAQ"
     ];
+
+    const handleConfetti = () => {
+        confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { y: 0.6 }
+        });
+    };
 
     return (
         <>
@@ -155,7 +165,7 @@ const NavBar = () => {
                     <NavbarItem className='space-x-[14px] hidden md:block'>
                         <Button
                             className="tertiaryBtn md:py-2 lg:py-2.5"
-                        // onClick={() => toast({ title: "Coming Soon!" })}
+                            onClick={() => showCustomToast({ message: "Coming Soon!", type: "error" })}
                         >
                             Login
                         </Button>

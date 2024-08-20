@@ -13,7 +13,7 @@ const MeetCustomers = () => {
     return (
         <div className='bg-neutral-silver'>
             <div className='px-4 md:px-auto md:container md:mx-auto'>
-                <div className='xl:mx-[110px] md:mx-[40px] py-8 flex flex-col md:flex-row gap-[40px] lg:gap-[7px]'>
+                <div className='xl:mx-[90px] md:mx-[30px] py-8 flex flex-col md:flex-row gap-[40px] lg:gap-[7px]'>
                     <div className='max-w-full m-auto'>
                         <Image src="https://i.ibb.co/ZWt875h/ezgif-com-resize-1.jpg" className='rounded-[8px] w-full' alt="ezgif-com-resize-1" width={326} height={326} />
                     </div>
@@ -46,7 +46,7 @@ const MeetCustomers = () => {
                             <div className='w-[48px] h-[48px] inline-flex'>
                                 <Logo6 className="m-auto" />
                             </div>
-                            <p className='text-brand-primary space-x-2'>
+                            <p className='text-brand-primary space-x-2 cursor-pointer'>
                                 <span className='inline'>
                                     Meet all customers
                                 </span>

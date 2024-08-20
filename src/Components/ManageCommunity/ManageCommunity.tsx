@@ -9,7 +9,7 @@ const ManageCommunity = () => {
     return (
         <div className='px-4 md:px-auto md:container md:mx-auto mt-[20px]'>
             <Heading heading='Manage your entire community in a single system' description='Who is Nextcent suitable for?' className="mt-[20px] md:mt-[40px] mb-2 md:mb-3 lg:mb-4" />
-            <div className='py-[10px] mt-4 xl:mx-[110px] md:mx-[50px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[30px] md:gap-[70px] lg:gap-[120px]'>
+            <div className='py-[10px] mt-4 xl:mx-[90px] md:mx-[30px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[30px] md:gap-[70px] lg:gap-[120px]'>
                 <div className='mx-auto'>
                     <ManageCommunityCards icon={<UserGroupIcon className="m-auto" />} title='Membership Organisations' description='Our membership management software provides full automation of membership renewals and payments' />
                 </div>
