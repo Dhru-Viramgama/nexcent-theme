@@ -1,4 +1,4 @@
-import {nextui} from '@nextui-org/theme';
+import { nextui } from '@nextui-org/theme';
 import type { Config } from "tailwindcss"
 
 const config = {
@@ -92,11 +92,12 @@ const config = {
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
       boxShadow: {
-        "manage-community-card": "0px 2px 4px 0px rgba(171, 190, 209, 0.2)"
+        "manage-community-card": "0px 2px 4px 0px rgba(171, 190, 209, 0.2)",
+        "marketing-card": "0px 8px 16px 0px rgba(171, 190, 209, 0.4)",
       }
     },
   },
-  plugins: [require("tailwindcss-animate"),nextui()],
+  plugins: [require("tailwindcss-animate"), nextui()],
 } satisfies Config
 
 export default config

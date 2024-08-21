@@ -7,7 +7,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'i.ibb.co',
         port: '',
-        pathname: '/ZWt875h/ezgif-com-resize-1.jpg',
+        pathname: '/**',
       },
     ],
   },

@@ -8,6 +8,7 @@ import MobileLoginImage from '../ImageWithTextSection/MobileLoginImage'
 import HelpingLocalSection from '../HelpingLocalSection/HelpingLocalSection'
 import MobileLoginImage2 from '../ImageWithTextSection/MobileLoginImage2'
 import MeetCustomers from '../MeetCustomers/MeetCustomers'
+import MarketingSection from '../MarketingSection/MarketingSection'
 
 const HomeScreen = () => {
     return (
@@ -30,6 +31,7 @@ const HomeScreen = () => {
                 buttonText='Learn More'
             />
             <MeetCustomers />
+            <MarketingSection />
         </div>
     )
 }

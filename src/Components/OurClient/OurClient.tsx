@@ -48,15 +48,11 @@ const OurClient = () => {
             <div className="relative w-full overflow-hidden mt-2 md:mt-3 lg:mt-4">
                 <Marquee pauseOnHover className="[--duration:25s] my-[25px] xl:mx-[90px] md:mx-[30px] p-0">
                     {reviews.map((item, index) => (
-                        <>
-                            {/* <div key={index} className='cursor-pointer'> */}
-                            <Tooltip showArrow={true} color='primary' radius="md" content={item?.tooltipName}>
-                                <div className='h-[48px] w-[48px] flex mr-[30px] md:mr-[60px] lg:mr-[136px]'>
-                                    {item?.logo}
-                                </div>
-                            </Tooltip>
-                            {/* </div> */}
-                        </>
+                        <Tooltip key={index} showArrow={true} color='primary' radius="md" content={item?.tooltipName} className='cursor-pointer'>
+                            <div className='h-[48px] w-[48px] flex mr-[30px] md:mr-[60px] lg:mr-[136px]'>
+                                {item?.logo}
+                            </div>
+                        </Tooltip>
                     ))}
                 </Marquee>
                 <div className="pointer-events-none absolute inset-y-0 left-0 lg:ml-[90px] md:ml-[30px] w-1/3 bg-gradient-to-r from-white dark:from-background" />
