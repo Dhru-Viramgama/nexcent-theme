@@ -1,6 +1,7 @@
 import "@/styles/globals.scss";
 import { NextUIProvider } from "@nextui-org/system";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 // import { useEffect } from "react";
 // import confetti from 'canvas-confetti';
 import { Toaster } from "react-hot-toast";
@@ -41,6 +42,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <NextUIProvider>
+        <Head>
+          <title>Nexcent | Home</title>
+        </Head>
         <Component {...pageProps} />
         <Toaster
           position="bottom-right"

@@ -18,7 +18,7 @@ const MarketingCard = (props: MarketingCardProps) => {
 
     return (
         <div className='relative w-fit mb-[90px]'>
-            <Image src={image} alt="marketing_image" className='rounded-md object-cover w-[368px] h-[286px]' width={368} height={286} />
+            <Image src={image} alt="marketing_image" className='rounded-md object-cover w-[368px] h-[286px]' width={368} height={286} loading='lazy' />
             <div className='absolute bg-neutral-silver shadow-marketing-card p-4 w-[317px] md:w-[250px] -bottom-[80px] rounded-md right-0 left-0 mx-auto xl:w-[317px]'>
                 <h4 className='h-[84px] text-center text-neutral-grey text-lg md:text-xl line-clamp-3'>{title}</h4>
                 <Link href="/" className='text-lg md:text-xl text-brand-primary flex items-center justify-center py-2 gap-2 mt-4'>

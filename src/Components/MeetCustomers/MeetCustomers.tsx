@@ -15,15 +15,15 @@ const MeetCustomers = () => {
             <div className='px-4 md:px-auto md:container md:mx-auto'>
                 <div className='xl:mx-[90px] md:mx-[30px] py-8 flex flex-col md:flex-row gap-[40px] lg:gap-[7px]'>
                     <div className='max-w-full m-auto'>
-                        <Image src="https://i.ibb.co/ZWt875h/ezgif-com-resize-1.jpg" className='rounded-[8px] w-full' alt="ezgif-com-resize-1" width={326} height={326} />
+                        <Image src="https://i.ibb.co/ZWt875h/ezgif-com-resize-1.jpg" className='rounded-[8px] w-full' alt="ezgif-com-resize-1" width={326} height={326} loading='lazy' />
                     </div>
                     <div className='md:w-3/5'>
                         <p className='text-neutral-grey font-medium'>
                             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
                         </p>
-                        <h4 className='text-[20px] text-brand-primary mt-4'>
+                        <h2 className='text-[20px] text-brand-primary mt-4'>
                             Tim Smith
-                        </h4>
+                        </h2>
                         <p className='text-neutral-l-grey mt-2'>
                             British Dragon Boat Racing Association
                         </p>
