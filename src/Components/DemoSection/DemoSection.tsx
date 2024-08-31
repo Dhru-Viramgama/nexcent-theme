@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../Button/Button'
 import RightArrowIcon from '@/src/Icons/RightArrowIcon'
+import { showCustomToast } from '../customToast/customToast'
 
 const DemoSection = () => {
     return (
@@ -10,7 +11,7 @@ const DemoSection = () => {
                     Pellentesque suscipit fringilla libero eu.
                 </h1>
                 <div className='mt-6 md:mt-8 flex justify-center'>
-                    <Button className="flex items-center primaryBtn !text-base">
+                    <Button className="flex items-center primaryBtn !text-base" onClick={() => showCustomToast({ message: "Coming Soon!" })}>
                         Get a Demo <RightArrowIcon className="ml-2" />
                     </Button>
                 </div>

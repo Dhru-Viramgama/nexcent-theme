@@ -6,7 +6,6 @@ import Logo3 from '../OurClient/Logos/Logo3'
 import Logo4 from '../OurClient/Logos/Logo4'
 import Logo5 from '../OurClient/Logos/Logo5'
 import Logo6 from '../OurClient/Logos/Logo6'
-import Button from '../Button/Button'
 import RightArrowIcon from '@/src/Icons/RightArrowIcon'
 
 const MeetCustomers = () => {

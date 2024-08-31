@@ -1,6 +1,7 @@
 import React from 'react'
 import MobileLoginImage from './MobileLoginImage'
 import Button from '../Button/Button'
+import { showCustomToast } from '../customToast/customToast'
 
 interface ImageWithTextSection {
     image: any
@@ -30,7 +31,7 @@ const ImageWithTextSection = (props: ImageWithTextSection) => {
                     <p className='text-sm mt-4'>
                         {description}
                     </p>
-                    <Button className="primaryBtn mt-8">
+                    <Button className="primaryBtn mt-8" onClick={() => showCustomToast({ message: "Coming Soon!" })}>
                         {buttonText}
                     </Button>
                 </div>

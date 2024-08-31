@@ -165,13 +165,13 @@ const NavBar = () => {
                     <NavbarItem className='space-x-[14px] hidden md:block'>
                         <Button
                             className="tertiaryBtn md:py-2 lg:py-2.5"
-                            onClick={() => showCustomToast({ message: "Coming Soon!", type: "error" })}
+                            onClick={() => showCustomToast({ message: "Coming Soon!" })}
                         >
                             Login
                         </Button>
                         <Button
                             className="primaryBtn md:py-2 lg:py-2.5"
-                        // onClick={() => toast({ title: "Coming Soon!" })}
+                            onClick={() => showCustomToast({ message: "Coming Soon!" })}
                         >
                             Sign up
                         </Button>

@@ -8,6 +8,7 @@ import Image from 'next/image';
 // import DesktopImage from "@/src/Assets/Hero-desktop-image.png"
 import HeroImage from "@/src/Assets/Hero-image.png"
 import Button from '../Button/Button';
+import { showCustomToast } from '../customToast/customToast';
 
 const HeroBanner = () => {
     return (
@@ -30,7 +31,7 @@ const HeroBanner = () => {
                                         <h2 className='text-[30px] md:text-[45px] lg:text-[55px] leading-[43px] md:leading-[55px] lg:leading-[70px] xl:leading-[76px] xl:text-[64px] font-semibold text-neutral-d-grey'>Lessons and insights</h2>
                                         <h2 className='text-[30px] md:text-[45px] lg:text-[55px] leading-[43px] md:leading-[55px] lg:leading-[70px] xl:leading-[76px] xl:text-[64px] font-semibold text-brand-primary'>from 8 years</h2>
                                         <p className='md:max-w-[90%] text-sm md:text-base text-neutral-grey mt-2 md:mt-4'>Where to grow your business as a photographer: site or social media?</p>
-                                        <Button className='primaryBtn mt-4 md:mt-6 lg:mt-8'>
+                                        <Button className='primaryBtn mt-4 md:mt-6 lg:mt-8' onClick={() => showCustomToast({ message: "Coming Soon!" })}>
                                             Register
                                         </Button>
                                     </div>
