@@ -9,6 +9,8 @@ import HelpingLocalSection from '../HelpingLocalSection/HelpingLocalSection'
 import MobileLoginImage2 from '../ImageWithTextSection/MobileLoginImage2'
 import MeetCustomers from '../MeetCustomers/MeetCustomers'
 import MarketingSection from '../MarketingSection/MarketingSection'
+import DemoSection from '../DemoSection/DemoSection'
+import Footer from '../Footer/Footer'
 
 const HomeScreen = () => {
     return (
@@ -32,6 +34,8 @@ const HomeScreen = () => {
             />
             <MeetCustomers />
             <MarketingSection />
+            <DemoSection />
+            <Footer />
         </div>
     )
 }

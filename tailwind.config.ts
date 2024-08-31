@@ -26,6 +26,7 @@ const config = {
         "neutral-d-grey": "#4D4D4D",
         "neutral-l-grey": "#89939E",
         "neutral-grey": "#717171",
+        "neutral-black": "#263238",
         "tint-500": "#E8F5E9",
         "brand-primary": "#4CAF4F",
         border: "hsl(var(--border))",

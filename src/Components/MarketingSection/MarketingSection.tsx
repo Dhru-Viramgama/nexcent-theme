@@ -3,7 +3,7 @@ import MarketingCard from './MarketingCard'
 
 const MarketingSection = () => {
     return (
-        <div className='px-4 md:px-auto md:container md:mx-auto mt-[38px] md:mt-[48px]'>
+        <div className='px-4 md:px-auto md:container md:mx-auto my-[38px] md:my-[48px]'>
             <div className='xl:mx-[90px] md:mx-[30px]'>
                 <h3 className='text-3xl lg:text-4xl m-auto text-center font-semibold text-neutral-d-grey'>
                     Caring is the new marketing

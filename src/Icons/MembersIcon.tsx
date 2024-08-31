@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MembersIcon = (props: any) => {
+const MembersIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

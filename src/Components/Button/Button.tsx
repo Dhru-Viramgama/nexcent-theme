@@ -11,7 +11,7 @@ interface ButtonProps {
     [key: string]: any
 }
 
-const Button = (props: any) => {
+const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
     const {
         children,
         className,

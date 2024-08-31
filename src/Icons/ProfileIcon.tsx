@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProfileIcon = (props: any) => {
+const ProfileIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
